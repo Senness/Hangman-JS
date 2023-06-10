@@ -5,8 +5,13 @@
     font-family: "Poppins", sans-serif;
 }
 
+.html {
+    height: 100%;
+}
+
 body{
-    background-color: rgba(20, 22, 141, 0.801);
+    background-color: #ababab;
+    min-height: 100%;
 }
 
 .container {
@@ -15,12 +20,14 @@ body{
     width: 90vw;
     max-width: 34em;
     position: absolute;
-    transform: translate(-50%, 50%);
-    top: 50%;
-    left: 50%;
+    transform: translate(-60%, 25%);
+    top: 100px;
+    left: 1000px;
     padding: 3em;
-    border-radius: 0.6em;
-    box-shadow: 0 1.2em 2.4em rgba(111, 85, 0 ,0.25);
+    border-radius: 50px;
+    background: #ababab;
+    box-shadow:  20px 20px 60px #919191,
+                 -20px -20px 60px #c5c5c5;
 }
 
 #options-container {
@@ -71,7 +78,7 @@ body{
 }
 
 .new-game-popup {
-    background-color: black;
+    background-color: #ababab;
     position: absolute;
     left: 0;
     top: 0;
@@ -118,16 +125,16 @@ canvas {
 #new-game-button {
     font-size: 1.25em;
     padding: 0.5em 1em;
-    background-color:blue;
+    background-color:#ababab;
     border: 3px solid white;
     color: #000000;
     border-radius: 0.2em;
 }
 
 .win-msg {
-    color: #39d78d
+    color: black;
 }
 
 .lose-msg {
-    color: #fe5152
+    color: black;
 }
